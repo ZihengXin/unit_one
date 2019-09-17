@@ -1,11 +1,19 @@
 package com.company;
 
+import java.util.Scanner;
+
 public class Painting_a_room {
     public static void main(String[] args) {
         final int area_per_gallon = 350;
-        double length = 32;
-        double width = 40;
-        double height = 16;
+        Scanner L= new Scanner (System.in);
+        Scanner W= new Scanner (System.in);
+        Scanner H= new Scanner (System.in);
+        System.out.println("Type the length of the room");
+        double length = L.nextDouble();
+        System.out.println("Type the width of the room");
+        double width = W.nextDouble();
+        System.out.println("Type the height of the room");
+        double height = H.nextDouble();
         int AREA_OF_DOOR = 20;
         int NUMBER_OF_DOOR = 2;
         int AREA_OF_WINDOW = 15;
