@@ -19,6 +19,7 @@ public class FindTheAverage {
         result += value_two;
         result += value_three;
         result += value_four;
+        result /= 4;
 
         System.out.println("Average = "+ result);
     }
