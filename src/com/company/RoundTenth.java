@@ -7,9 +7,10 @@ public class RoundTenth {
         System.out.print("Decimal number? ");
         Scanner input=new Scanner(System.in);
         double input_number= input.nextDouble();
-        input_number *=10;
-        input_number +=0.5;
-        int result= (int)(input_number);
+        double progress= input_number;
+        progress *=10;
+        progress +=0.5;
+        int result= (int)(progress);
         double outcome= result/10.0;
         System.out.print(input_number+" "+"rounded to the nearest tenth is"+" "+outcome);
 
